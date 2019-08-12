@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        tools:context=".MainActivity">
+
+    <!-- Fragment Estatico
+    <fragment
+            android:id="@+id/fragmentLeft"
+            android:name="com.example.fragment.FragmentLeft"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+    />
+
+    <fragment
+            android:id="@+id/fragmentRight"
+            android:name="com.example.fragment.FragmentRight"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+
+    />
+
+    -->
+
+    <!--Fragment Dinamico-->
+
+    <FrameLayout
+            android:id="@+id/lay_left"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+    >
+    </FrameLayout>
+
+    <FrameLayout
+            android:id="@+id/lay_right"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+    >
+    </FrameLayout>
+
+</LinearLayout>
